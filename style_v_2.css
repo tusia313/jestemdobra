@@ -1,0 +1,379 @@
+body
+{
+    margin: 0 !important;
+    color:#2f3336;
+    /* background-color: lavenderblush; */
+    background-color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 16px;
+}
+.rectangle
+/* div stworzony tylko po to by ew. obok searchu dać jeszcze ikonki z tłumaczeniem na jęyki strony */
+{
+    position: relative;
+    top: 30px;
+    margin-right: 10px;
+    display: flex; 
+    justify-content: flex-end;
+}
+/* #clock
+{
+    width: 70%;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 220px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+} */
+input
+{
+    width: 150px;
+    font-size: 12px;
+    border: 3px solid #db2f52;
+    border-radius: 5px;
+    opacity: 0.4;
+    text-align: right;
+    padding: 3px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+nav
+{
+    display: inline-flex;;
+    color: white;  
+    width: 100%;
+}
+.menu
+{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 0px;
+    height: 40px;
+    background-color: #db2f52;
+    list-style-type: none;
+    font-weight: 700;
+    line-height: 250%;
+    text-align: center;
+    justify-content: center;
+}
+.menu > li
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 190px;
+    border-right: 1px dotted white;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu > li:last-child
+{
+    border-right: none;
+}
+.menu > li:first-child
+{
+    border-left: none;
+}
+.menu > li > a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.menu > li:hover > a
+{
+    opacity: 0.7;
+    cursor: pointer;
+    color: lavenderblush;
+}
+.menu > li > ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  
+    display: none;
+}
+.menu > li > ul > li
+{
+    background-color: #e05459;
+    z-index: 100;
+}
+.menu > li:hover > ul
+{
+    /* w tutorialu było dispalay as block, ale czytałam, że od podejścia blokowego się odchodzi- prawda to? I przyznam, nie do końca ogarniam funkcji "grid" */
+    display: grid;
+}
+.menu > li > ul > li > a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+.menu > li > ul > li:hover
+{
+    background-color: #f16560;
+}
+#logo
+{
+    position: relative;
+    top: -30px;
+    justify-content: center;
+    align-items: center;
+}
+#logo img
+{
+  max-width: 300px;
+  max-height: 180px;
+}
+.introduction
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    text-align: justify;
+    font-size: 1.4em;
+    /* picture */
+    background-image: url('img/image1.JPG') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    /* if the image is unavailable */
+    background-color: #e96b6d;
+    color: snow;
+    z-index: 5000;
+}
+.introduction p:first-letter
+{
+    font-size: 2em;
+    font-weight: 700;
+} 
+h1
+{
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.ingredients
+{
+    text-align: center;
+    list-style-position: inside;
+}
+.recepie
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.recepie h2
+{
+    padding-left: 50px;
+}
+.backgroundcake
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.textcake
+{
+    position: absolute;
+    padding: 50px;
+    top: 0;
+    left: 0;
+    font-size: 1.2em;
+}
+.cake
+{
+    height: 410px;
+    width: 340px;
+    margin-right: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+   
+}
+.cake img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    box-shadow: inset 30px black;
+    transform: all 0.5s ease-in-out;
+    transition-property: left bottom;
+}
+.cake:hover img
+{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+}
+.ending
+{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(253, 246, 249); */
+    background-color: white;
+}
+.normaltext
+{
+    height: 400px;
+    width: 340px;
+    margin-top: 70px;
+    align-self: center;
+    font-size: 1.2em;
+    text-align: justify;
+    
+}
+.signature
+{
+    margin-left: 80px;
+    margin-top: -70px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 4em;
+}
+.beforesocials
+{
+    display: inline-flex;
+}
+.authortext
+{
+    width: 450px;
+    background-color: #e05459;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.authortext p
+{
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.authortext p strong
+{
+    letter-spacing: 4px;
+}
+.authorphoto
+{
+    max-height: 300px;
+    max-width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+.authorphoto img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+    box-shadow: inset 30px black;
+}
+.comment
+{
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.upcomment
+{
+    display: inline-flex;
+    align-items: center;
+}
+.socials
+{
+    width: 100%;
+    text-align: center;
+    background-color: #e75c6c;
+}
+.socialdivs
+{
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fb
+{
+    width: 250px;
+    height: 155px;
+    color: white;
+}
+.fb a
+{
+    color: white;
+}
+.fb:hover 
+{
+    background-color: #4668b3;
+    cursor: pointer;
+}
+.yt
+{
+    width: 250px;
+    height: 155px;
+    color: white;
+    align-items: center;
+}
+.yt:hover 
+{
+    background-color: #d94348;
+    cursor: pointer;
+}
+.yt a
+{
+    color: white;
+}
+.tt
+{
+    width: 250px;
+    height: 155px;
+    color: white;
+}
+.tt a
+{
+    color: white;
+}
+.tt:hover 
+{
+    background-color: #55ACEE;
+    cursor: pointer;
+}
+.inst
+{
+    width: 250px;
+    height: 155px;
+    color: white;
+}
+/* .inst a
+{
+    color: white;
+} */
+.inst:hover
+{
+    background: #C13584;
+    cursor: pointer;
+}
+.icon-mail-alt
+{
+    color: white;
+}
+.icon-mail-alt:hover
+{
+    cursor: pointer;
+}
+
+.end
+{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    padding: 10px;
+    background-color: #e05459;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
