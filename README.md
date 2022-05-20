@@ -1,7 +1,4 @@
-# jestemdobra
-<<<<<<< HEAD
 
-My first html/css/php blog.
-=======
 
->>>>>>> 743e8e4 (Start a project)
+My first html/css/php blog, just for trying how these whole things work.
+
