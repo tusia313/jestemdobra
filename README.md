@@ -2,7 +2,7 @@
 
 ## 🧵 What's it about?
 
-Finally have some fun with beauty (that is - css), working on layout, colors, image and links <3
+It was my first touch of HTML language and a bit of CSS world. Took me so (and definitely too!) long to achieve this final effect.
 
 ## 🧵 First look 
 
@@ -13,6 +13,6 @@ Finally have some fun with beauty (that is - css), working on layout, colors, im
 + HTML
 + CSS
 
-## 🧵 Sources
+## 🔮 Inspirations
 Miroslaw Zelent vlog on his [YouTube channel](https://www.youtube.com/@Pasjainformatyki) and other dephts of the internet ;)
 
